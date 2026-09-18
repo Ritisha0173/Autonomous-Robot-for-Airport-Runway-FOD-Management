@@ -1,8 +1,8 @@
 # Autonomous-Robot-for-Airport-Runway-FOD-Management
 
-# ✈️ Airport Runway FOD Detection & Removal System
 
-## 📌 Project Overview
+
+##  Project Overview
 
 A **vision-based Foreign Object Debris (FOD) detection and robotic removal system** developed for runway surface inspection. The system combines **deep-learning-based object detection, real-time image processing, Raspberry Pi-based video acquisition, and a 5-DOF robotic arm** to identify and remove runway debris.
 
@@ -10,7 +10,7 @@ The vision pipeline uses **YOLO11n with OpenCV** for FOD detection and classific
 
 ---
 
-## 🚨 Problem Statement
+##  Problem Statement
 
 Foreign Object Debris (FOD) on airport runways can include stones, metal fragments, plastic components, and other loose objects that may pose a risk to aircraft operations.
 
@@ -26,7 +26,7 @@ FOD objects on the runway surface.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Develop a deep-learning-based FOD detection pipeline.
 * Detect and classify **31 FOD categories** using YOLO11n.
@@ -39,7 +39,7 @@ FOD objects on the runway surface.
 
 ---
 
-## 🧠 Computer Vision Pipeline
+## Computer Vision Pipeline
 
 The core detection pipeline consists of:
 
@@ -78,7 +78,7 @@ These outputs are used to determine the target debris for the robotic removal pr
 
 ---
 
-## 📊 Dataset & Model Performance
+## Dataset & Model Performance
 
 | Parameter           |              Value |
 | ------------------- | -----------------: |
@@ -93,7 +93,7 @@ The model was trained using an annotated FOD dataset containing **33,793 images 
 
 ---
 
-## 🤖 Robotic Removal Subsystem
+## Robotic Removal Subsystem
 
 The robotic subsystem integrates a **5-DOF robotic arm** with the FOD detection pipeline.
 
@@ -131,7 +131,7 @@ After the removal operation, the vehicle repeats the inspection path to perform 
 
 ---
 
-## 🔄 Complete System Workflow
+## Complete System Workflow
 
 ```text
 ┌──────────────────────┐
@@ -177,7 +177,7 @@ After the removal operation, the vehicle repeats the inspection path to perform 
 
 ---
 
-## ⚙️ Hardware Components
+## Hardware Components
 
 | Component                | Purpose                                 |
 | ------------------------ | --------------------------------------- |
@@ -193,7 +193,7 @@ After the removal operation, the vehicle repeats the inspection path to perform 
 
 ---
 
-## 💻 Software & Technologies
+## Software & Technologies
 
 ### Programming
 
@@ -243,7 +243,7 @@ Following the removal operation, the vehicle repeats the predefined inspection t
 
 ---
 
-## 📈 Results
+## Results
 
 The trained YOLO11n model achieved:
 
@@ -257,7 +257,7 @@ The integrated prototype demonstrates a complete workflow from **visual FOD dete
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 * Investigate **electro-adhesive grippers** for handling FOD with varying shapes, materials, and surface characteristics.
 * Improve camera-to-arm coordinate mapping for more precise object grasping.
@@ -268,7 +268,7 @@ The integrated prototype demonstrates a complete workflow from **visual FOD dete
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ```text
 Python
