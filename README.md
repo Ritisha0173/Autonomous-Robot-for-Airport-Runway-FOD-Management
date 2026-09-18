@@ -286,8 +286,13 @@ L298N
 
 ---
 
-## 👨‍💻 Project Information
+## Project Information
 
 **Project:** Airport Runway FOD Detection & Removal System
 **Domain:** Computer Vision | Deep Learning | Robotics | Embedded Systems
 **Application:** Airport Runway Safety & FOD Management
+
+##  Project Model
+
+<img width="986" height="739" alt="Image" src="https://github.com/user-attachments/assets/879eb197-9aff-44d5-9af6-c83b4ab0055a" />
+<img width="807" height="511" alt="Image" src="https://github.com/user-attachments/assets/9710ef36-6019-438b-a54a-83bed30e1647" />
